@@ -70,6 +70,7 @@ The library includes the following components:
 
 - **Button** - A customizable button with variants (primary, secondary, danger) and sizes (small, medium, large)
 - **Card** - A container component with variants (default, outlined, elevated)
+- **NpTopBar** - Top navigation bar for NP training with "Tillbaka till ämnesval" (back) and "Logga ut" (logout) buttons. See `src/components/NpTopBar.stories.tsx` for the story, which serves as a spec for SchoolAgent2.
 
 ## Scripts
 
