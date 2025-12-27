@@ -40,14 +40,14 @@
   background-color: #d1d5db;
 }
 
-/* Logout button - right aligned, danger style */
+/* Logout button - right aligned, same secondary style as back button */
 .np-top-bar__button--logout {
-  background-color: #ef4444;
-  color: white;
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
 
 .np-top-bar__button--logout:hover {
-  background-color: #dc2626;
+  background-color: #d1d5db;
 }
 
 /* Mobile responsiveness */
