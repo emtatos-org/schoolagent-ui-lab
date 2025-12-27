@@ -1,0 +1,38 @@
+.card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.card--default {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.card--outlined {
+  background-color: transparent;
+  border: 1px solid #e5e7eb;
+  color: inherit;
+}
+
+.card--elevated {
+  background-color: #ffffff;
+  color: #1f2937;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card__description {
+  margin: 0 0 1rem 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.card__content {
+  margin-top: 1rem;
+}
