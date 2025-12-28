@@ -1,0 +1,66 @@
+.dashboard-focus-list {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-focus-list__title {
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.dashboard-focus-list__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dashboard-focus-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+.dashboard-focus-list__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dashboard-focus-list__name {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.dashboard-focus-list__percentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.dashboard-focus-list__train-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: #14b8a6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dashboard-focus-list__train-button:hover {
+  background-color: #0d9488;
+}
