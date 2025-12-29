@@ -1,0 +1,44 @@
+.dashboard-donut {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-donut__svg {
+  transform: rotate(0deg);
+}
+
+.dashboard-donut__background {
+  fill: none;
+  stroke: #e5e7eb;
+}
+
+.dashboard-donut__progress {
+  fill: none;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease-in-out, stroke 0.3s ease;
+}
+
+.dashboard-donut__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dashboard-donut__percentage {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.dashboard-donut__subtitle {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
